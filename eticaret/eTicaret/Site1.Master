@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="eTicaret.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="icerik/still/master.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!--  Free CSS Templates from www.templatemo.com -->
+        <div id="templatemo_container">
+            <div id="templatemo_menu">
+                <ul>
+                    <li><a href='Default.aspx' class="current">AnaSayfa</a></li>
+                    <%--<li><a href="ara.html">Kitap Ara</a></li>--%>
+                    <li><a href="Default.html">Books</a></li>
+                    <li><a href="#">En Çok Satılan</a></li>
+                    <li><a href="uyeKayit.aspx">Üye Kayıt</a></li>
+                    <li><a href="Sepet.aspx">Sepetim</a></li>
+                </ul>
+            </div>
+            <!-- end of menu -->
+
+            <div id="templatemo_header">
+                <div>
+                    <img src="images/templatemo_header_bg.jpg" />
+                </div>
+
+                <%-- <div id="templatemo_special_offers">
+            
+            
+        	<p>
+                <span>25%</span> 150 Lira üzeri alışverişlerde kargo ücretsiz
+        	</p>
+			<a href="subpage.html" style="margin-left: 50px;">Read more...</a>
+        </div>--%>
+
+
+                <%-- <div id="templatemo_new_books">
+        	<ul>
+                <li>kitap1</li>
+                <li>kitap2</li>
+                <li>kitap3</li>
+            </ul>
+            <a href="subpage.html" style="margin-left: 50px;">Read more...</a>
+        </div>--%>
+            </div>
+            <!-- end of header -->
+
+            <div id="templatemo_content">
+
+                <div id="templatemo_content_left">
+                    <div class="templatemo_content_left_section">
+                        <h1>Kategoriler</h1>
+                        <ul>
+                            <li><a href="roman.aspx">Roman</a></li>
+                            <li><a href="siir.aspx">Şiir</a></li>
+                            <li><a href="bilim.aspx">Bilim</a></li>
+                            <li><a href="ydil.aspx">Yabancı Dil</a></li>
+                            <li><a href="felsefe.aspx">Felsefe</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="templatemo_content_left_section">
+                        <h1>En çok Satanlar</h1>
+                        <ul>
+
+                            <li><a href="#">Maece nas metus</a></li>
+                            <li><a href="#">In sed risus ac feli</a></li>
+                            <li><a href="#">Praesent mattis varius</a></li>
+                            <li><a href="#">Maece nas metus</a></li>
+                            <li><a href="#">In sed risus ac feli</a></li>
+                            <li><a href="#">Flash Templates</a></li>
+                            <li><a href="#">CSS Templates</a></li>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="http://www.photovaco.com" target="_parent">Free Photos</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <!-- end of content left -->
+
+                <div id="templatemo_content_right">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+
+
+                <div class="cleaner_with_height">&nbsp;</div>
+            </div>
+            <!-- end of content -->
+
+            <div id="templatemo_footer">
+
+                <div id="bottom"></div>
+                <div id="footer">@Copyright MS-YAZ-08 Yazılım 2016</div>
+                <!-- Credit: www.templatemo.com -->
+            </div>
+            <!-- end of footer -->
+            <!--  Free CSS Template www.templatemo.com -->
+        </div>
+        <!-- end of container -->
+    </form>
+</body>
+</html>

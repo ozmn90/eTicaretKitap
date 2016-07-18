@@ -1,0 +1,42 @@
+c:\users\smnylmz\documents\visual studio 2013\Projects\eTicaret\eTicaret\bin\eTicaret.dll.config
+c:\users\smnylmz\documents\visual studio 2013\Projects\eTicaret\eTicaret\bin\eTicaret.dll
+c:\users\smnylmz\documents\visual studio 2013\Projects\eTicaret\eTicaret\bin\eTicaret.pdb
+c:\users\smnylmz\documents\visual studio 2013\Projects\eTicaret\eTicaret\obj\Debug\eTicaret.csprojResolveAssemblyReference.cache
+c:\users\smnylmz\documents\visual studio 2013\Projects\eTicaret\eTicaret\obj\Debug\eTicaret.dll
+c:\users\smnylmz\documents\visual studio 2013\Projects\eTicaret\eTicaret\obj\Debug\eTicaret.pdb
+C:\Users\student\Desktop\projem\eticaret\eTicaret\bin\eTicaret.dll.config
+C:\Users\student\Desktop\projem\eticaret\eTicaret\bin\eTicaret.dll
+C:\Users\student\Desktop\projem\eticaret\eTicaret\bin\eTicaret.pdb
+C:\Users\student\Desktop\projem\eticaret\eTicaret\obj\Debug\eTicaret.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\projem\eticaret\eTicaret\obj\Debug\eTicaret.dll
+C:\Users\student\Desktop\projem\eticaret\eTicaret\obj\Debug\eTicaret.pdb
+C:\Users\smnylmz\Desktop\projem\eticaret\eTicaret\bin\eTicaret.dll.config
+C:\Users\smnylmz\Desktop\projem\eticaret\eTicaret\bin\eTicaret.dll
+C:\Users\smnylmz\Desktop\projem\eticaret\eTicaret\bin\eTicaret.pdb
+C:\Users\smnylmz\Desktop\projem\eticaret\eTicaret\bin\EntityFramework.dll
+C:\Users\smnylmz\Desktop\projem\eticaret\eTicaret\bin\EntityFramework.SqlServer.dll
+C:\Users\smnylmz\Desktop\projem\eticaret\eTicaret\bin\EntityFramework.xml
+C:\Users\smnylmz\Desktop\projem\eticaret\eTicaret\bin\EntityFramework.SqlServer.xml
+C:\Users\smnylmz\Desktop\projem\eticaret\eTicaret\obj\Debug\eTicaret.csprojResolveAssemblyReference.cache
+C:\Users\smnylmz\Desktop\projem\eticaret\eTicaret\obj\Debug\eTicaret.dll
+C:\Users\smnylmz\Desktop\projem\eticaret\eTicaret\obj\Debug\eTicaret.pdb
+C:\Users\student\Desktop\eticaretkitap\eticaret\eTicaret\bin\eTicaret.dll.config
+C:\Users\student\Desktop\eticaretkitap\eticaret\eTicaret\bin\eTicaret.dll
+C:\Users\student\Desktop\eticaretkitap\eticaret\eTicaret\bin\eTicaret.pdb
+C:\Users\student\Desktop\eticaretkitap\eticaret\eTicaret\bin\EntityFramework.dll
+C:\Users\student\Desktop\eticaretkitap\eticaret\eTicaret\bin\EntityFramework.SqlServer.dll
+C:\Users\student\Desktop\eticaretkitap\eticaret\eTicaret\bin\EntityFramework.xml
+C:\Users\student\Desktop\eticaretkitap\eticaret\eTicaret\bin\EntityFramework.SqlServer.xml
+C:\Users\student\Desktop\eticaretkitap\eticaret\eTicaret\obj\Debug\eTicaret.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\eticaretkitap\eticaret\eTicaret\obj\Debug\eTicaret.dll
+C:\Users\student\Desktop\eticaretkitap\eticaret\eTicaret\obj\Debug\eTicaret.pdb
+C:\Users\smnylmz\Desktop\eticaretkitap\eticaret\eTicaret\bin\eTicaret.dll.config
+C:\Users\smnylmz\Desktop\eticaretkitap\eticaret\eTicaret\bin\eTicaret.dll
+C:\Users\smnylmz\Desktop\eticaretkitap\eticaret\eTicaret\bin\eTicaret.pdb
+C:\Users\smnylmz\Desktop\eticaretkitap\eticaret\eTicaret\bin\EntityFramework.dll
+C:\Users\smnylmz\Desktop\eticaretkitap\eticaret\eTicaret\bin\EntityFramework.SqlServer.dll
+C:\Users\smnylmz\Desktop\eticaretkitap\eticaret\eTicaret\bin\EntityFramework.xml
+C:\Users\smnylmz\Desktop\eticaretkitap\eticaret\eTicaret\bin\EntityFramework.SqlServer.xml
+C:\Users\smnylmz\Desktop\eticaretkitap\eticaret\eTicaret\obj\Debug\eTicaret.csprojResolveAssemblyReference.cache
+C:\Users\smnylmz\Desktop\eticaretkitap\eticaret\eTicaret\obj\Debug\eTicaret.dll
+C:\Users\smnylmz\Desktop\eticaretkitap\eticaret\eTicaret\obj\Debug\eTicaret.pdb

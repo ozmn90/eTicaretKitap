@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FBD94422-8DA6-4B3C-AD4C-6F3496BB97DD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eTicaret</RootNamespace>
+    <AssemblyName>eTicaret</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bilim.aspx" />
+    <Content Include="DataModel\Books.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Books.edmx</DependentUpon>
+      <LastGenOutput>Books.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DataModel\Books.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Books.edmx</DependentUpon>
+      <LastGenOutput>Books.cs</LastGenOutput>
+    </Content>
+    <Content Include="Detay.aspx" />
+    <Content Include="felsefe.aspx" />
+    <Content Include="icerik\still\images\sepet.png" />
+    <Content Include="icerik\urunler\resimBuyuk\bb1.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\bb2.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\bb3.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\bb4.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\eb1.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\eb2.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\eb3.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\i1b.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\ib3.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\ib2.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\ib4.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\rb1.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\rb2.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\rb3.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\rb4.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\rb5.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\sb1.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\sb2.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\sb3.jpg" />
+    <Content Include="icerik\urunler\resimBuyuk\sb4.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\bk1.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\bk2.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\bk3.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\bk4.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\ek1.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\ek2.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\ek3.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\i1k.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\i3k.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\i2k.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\ik4.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\rk1.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\rk2.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\rk3.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\rk4.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\rk5.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\sk1.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\sk2.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\sk3.jpg" />
+    <Content Include="icerik\urunler\resimKucuk\sk4.jpg" />
+    <Content Include="roman.aspx" />
+    <Content Include="Sepet.aspx" />
+    <Content Include="siir.aspx" />
+    <Content Include="Site1.Master" />
+    <Content Include="uyeKayit.aspx" />
+    <Content Include="ydil.aspx" />
+    <EntityDeploy Include="DataModel\Books.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Books.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="DataModel\Books.edmx.diagram">
+      <DependentUpon>Books.edmx</DependentUpon>
+    </Content>
+    <Content Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="icerik\still\master.css" />
+    <Content Include="images\templatemo_ads.jpg" />
+    <Content Include="images\templatemo_bg.jpg" />
+    <Content Include="images\templatemo_btn_01.jpg" />
+    <Content Include="images\templatemo_btn_02.jpg" />
+    <Content Include="images\templatemo_footer_bg.jpg" />
+    <Content Include="images\templatemo_h1_bg.jpg" />
+    <Content Include="images\templatemo_header_bg.jpg" />
+    <Content Include="images\templatemo_header_bg_blank.jpg" />
+    <Content Include="images\templatemo_image_01.jpg" />
+    <Content Include="images\templatemo_image_02.jpg" />
+    <Content Include="images\templatemo_image_03.jpg" />
+    <Content Include="images\templatemo_image_04.jpg" />
+    <Content Include="images\templatemo_menu_bg.jpg" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bilim.aspx.cs">
+      <DependentUpon>bilim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bilim.aspx.designer.cs">
+      <DependentUpon>bilim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Books.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Books.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Books.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Books.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Books.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Books.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Kategoriler.cs">
+      <DependentUpon>Books.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Kullanicilar.cs">
+      <DependentUpon>Books.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\SatisDetaylari.cs">
+      <DependentUpon>Books.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Satislar.cs">
+      <DependentUpon>Books.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\sysdiagrams.cs">
+      <DependentUpon>Books.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel\Urunler.cs">
+      <DependentUpon>Books.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Detay.aspx.cs">
+      <DependentUpon>Detay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Detay.aspx.designer.cs">
+      <DependentUpon>Detay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="felsefe.aspx.cs">
+      <DependentUpon>felsefe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="felsefe.aspx.designer.cs">
+      <DependentUpon>felsefe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\cEnum.cs" />
+    <Compile Include="Models\cSepet.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="roman.aspx.cs">
+      <DependentUpon>roman.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="roman.aspx.designer.cs">
+      <DependentUpon>roman.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sepet.aspx.cs">
+      <DependentUpon>Sepet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sepet.aspx.designer.cs">
+      <DependentUpon>Sepet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="siir.aspx.cs">
+      <DependentUpon>siir.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="siir.aspx.designer.cs">
+      <DependentUpon>siir.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="uyeKayit.aspx.cs">
+      <DependentUpon>uyeKayit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uyeKayit.aspx.designer.cs">
+      <DependentUpon>uyeKayit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ydil.aspx.cs">
+      <DependentUpon>ydil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ydil.aspx.designer.cs">
+      <DependentUpon>ydil.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>20502</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:20502/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
