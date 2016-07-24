@@ -34,15 +34,15 @@ namespace eTicaret
             DataList1.DataSource = liste;
             DataList1.DataBind();
 
-            if (Session["sepet"] != null)
-            {
-                DataTable dt = (DataTable)Session["sepet"];
-                GridView gvOzet = (GridView)this.Master.FindControl("gvSepetOzet");
-                gvOzet.Columns[0].FooterText = "Toplam : ";
-                gvOzet.Columns[1].FooterText = string.Format("{0:C}", ToplamTutarBul());
-                gvOzet.DataSource = dt;
-                gvOzet.DataBind();
-            }
+            //if (Session["sepet"] != null)
+            //{
+            //    DataTable dt = (DataTable)Session["sepet"];
+            //    GridView gvOzet = (GridView)this.Master.FindControl("gvSepetOzet");
+            //    gvOzet.Columns[0].FooterText = "Toplam : ";
+            //    gvOzet.Columns[1].FooterText = string.Format("{0:C}", ToplamTutarBul());
+            //    gvOzet.DataSource = dt;
+            //    gvOzet.DataBind();
+            //}
 
         }
 

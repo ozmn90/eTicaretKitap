@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Adres.aspx" />
     <Content Include="bilim.aspx" />
     <Content Include="DataModel\Books.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -120,6 +121,7 @@
     <Content Include="icerik\urunler\resimKucuk\sk2.jpg" />
     <Content Include="icerik\urunler\resimKucuk\sk3.jpg" />
     <Content Include="icerik\urunler\resimKucuk\sk4.jpg" />
+    <Content Include="Odeme.aspx" />
     <Content Include="roman.aspx" />
     <Content Include="Sepet.aspx" />
     <Content Include="siir.aspx" />
@@ -161,6 +163,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adres.aspx.cs">
+      <DependentUpon>Adres.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adres.aspx.designer.cs">
+      <DependentUpon>Adres.aspx</DependentUpon>
+    </Compile>
     <Compile Include="bilim.aspx.cs">
       <DependentUpon>bilim.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -227,6 +236,13 @@
     </Compile>
     <Compile Include="Models\cEnum.cs" />
     <Compile Include="Models\cSepet.cs" />
+    <Compile Include="Odeme.aspx.cs">
+      <DependentUpon>Odeme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Odeme.aspx.designer.cs">
+      <DependentUpon>Odeme.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="roman.aspx.cs">
       <DependentUpon>roman.aspx</DependentUpon>

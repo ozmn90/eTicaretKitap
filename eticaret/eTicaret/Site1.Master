@@ -69,19 +69,26 @@
                         </ul>
                     </div>
                     <div class="templatemo_content_left_section">
-                        <h1>En çok Satanlar</h1>
-                        <ul>
-
-                            <li><a href="#">Maece nas metus</a></li>
-                            <li><a href="#">In sed risus ac feli</a></li>
-                            <li><a href="#">Praesent mattis varius</a></li>
-                            <li><a href="#">Maece nas metus</a></li>
-                            <li><a href="#">In sed risus ac feli</a></li>
-                            <li><a href="#">Flash Templates</a></li>
-                            <li><a href="#">CSS Templates</a></li>
-                            <li><a href="#">Web Design</a></li>
-                            <li><a href="http://www.photovaco.com" target="_parent">Free Photos</a></li>
-                        </ul>
+                        <h1>Sepetim</h1>
+                        <asp:GridView ID="gvSepetOzet" runat="server" BackColor="LightGoldenrodYellow" BorderColor="Tan" DataKeyNames="SepetID" BorderWidth="1px" CellPadding="2" ForeColor="Black" GridLines="None" ShowFooter="True" Height="86px" Width="159px" AutoGenerateColumns="False">
+                            <AlternatingRowStyle BackColor="PaleGoldenrod" />                            
+                            <Columns>
+                                <asp:BoundField DataField="UrunAd" HeaderText="Ürün Adı">
+                                <ItemStyle HorizontalAlign="Left" />
+                                </asp:BoundField>
+                                <asp:BoundField DataField="Adet" HeaderText="Adet">
+                                <ItemStyle HorizontalAlign="Center" />
+                                </asp:BoundField>
+                            </Columns>
+                            <FooterStyle BackColor="Tan" />
+                            <HeaderStyle BackColor="Tan" Font-Bold="True" />
+                            <PagerStyle BackColor="PaleGoldenrod" ForeColor="DarkSlateBlue" HorizontalAlign="Center" />
+                            <SelectedRowStyle BackColor="DarkSlateBlue" ForeColor="GhostWhite" />
+                            <SortedAscendingCellStyle BackColor="#FAFAE7" />
+                            <SortedAscendingHeaderStyle BackColor="#DAC09E" />
+                            <SortedDescendingCellStyle BackColor="#E1DB9C" />
+                            <SortedDescendingHeaderStyle BackColor="#C2A47B" />
+                        </asp:GridView>
                     </div>
 
 
